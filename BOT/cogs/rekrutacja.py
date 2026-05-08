@@ -20,7 +20,7 @@ class PodanieModal(discord.ui.Modal, title="Złóż podanie"):
 
     nick = discord.ui.TextInput(
         label="Nick w Minecraft",
-        placeholder="Np. Steve",
+        placeholder="Np. Kasti123",
         required=True,
         max_length=30
     )
@@ -29,14 +29,14 @@ class PodanieModal(discord.ui.Modal, title="Złóż podanie"):
         label="Wiek",
         placeholder="Np. 13",
         required=True,
-        max_length=3
+        max_length=2
     )
 
     czas_gry = discord.ui.TextInput(
         label="Ile możesz grać?",
-        placeholder="Np. 5h dziennie",
+        placeholder="Np. 4-6h dziennie",
         required=True,
-        max_length=100
+        max_length=60
     )
 
     powod = discord.ui.TextInput(
