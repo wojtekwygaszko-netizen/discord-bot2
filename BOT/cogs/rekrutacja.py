@@ -9,7 +9,7 @@ from discord import app_commands
 # ID KANAŁU NA PODANIA
 # =========================
 
-KANAL_PODANIA = 1502262816219070484
+KANAL_PODANIA = 1502292070382174439
 
 
 # =========================
